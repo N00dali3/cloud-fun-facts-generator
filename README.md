@@ -1,4 +1,4 @@
-# Geography Fun Facts Generator (AWS Serverless Project) ![Alt text](path/to/icons8-geography-100.png)
+# Geography Fun Facts Generator (AWS Serverless Project) ![Globe Icon](path/to/icons8-geography-100.png)
 
 ## Project Overview
 
