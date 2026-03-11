@@ -1,4 +1,3 @@
-# cloud-fun-facts-generator
 # Cloud Fun Facts Generator (AWS Serverless Project)
 
 ## Project Overview
