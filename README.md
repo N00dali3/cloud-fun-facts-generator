@@ -1,4 +1,4 @@
-# Geography Fun Facts Generator (AWS Serverless Project) https://www.freepik.com/icon/earth-globe_296081#fromView=keyword&page=1&position=1&uuid=b9f7c607-29a1-49dc-b907-1a8d486bc293
+# Geography Fun Facts Generator (AWS Serverless Project) <a href="https://www.flaticon.com/free-icons/globe" title="globe icons">Globe icons created by Freepik - Flaticon</a>
 
 ## Project Overview
 
