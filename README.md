@@ -1,4 +1,4 @@
-# Geography Fun Facts Generator (AWS Serverless Project) <a href="https://www.flaticon.com/free-icons/globe" title="globe icons">Globe icons created by Freepik - Flaticon</a>
+# Geography Fun Facts Generator (AWS Serverless Project) ![Alt text](path/to/globe.png)
 
 ## Project Overview
 
