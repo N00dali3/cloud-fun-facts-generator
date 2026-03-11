@@ -1,4 +1,4 @@
-# Geography Fun Facts Generator (AWS Serverless Project) ![Globe Icon] geography-fun-facts-generator/icons8-geography-100.pngicons8-geography-100.png
+# Geography Fun Facts Generator (AWS Serverless Project) ---<img width="100" height="100" alt="icons8-geography-100" src="https://github.com/user-attachments/assets/62c3f7d5-3940-44ed-a03f-04a4000b545d" />
 
 ## Project Overview
 
@@ -12,7 +12,6 @@ from DynamoDB and returns it to the frontend.
 This project demonstrates how multiple AWS services work together
 to create a simple serverless application.
 
----
 
 ## Architecture
 
