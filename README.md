@@ -66,7 +66,7 @@ Response returned to user
 ### API Gateway Endpoint
 #### Create API ![Create API](screenshots/createapi.png)
 #### API Info ![API](screenshots/API.png)
-#### Test API ![API Browser Test](APITest.png)
+#### Test API ![API Browser Test](screenshots/APITest.png)
 
 ### Lambda Function
 ![Lambda](screenshots/LambdaFunction.png)
@@ -79,17 +79,28 @@ Response returned to user
 ## Example Lambda Function
 
 ```python
+import boto3
 import random
 import json
 
+# Create DynamoDB client
+dynamodb = boto3.resource("dynamodb")
+table = dynamodb.Table("GeoFacts")
+
 def lambda_handler(event, context):
-    facts = [
-        "The world's largest desert is actually Antarctica, covering 5.5 million square miles, not the Sahara.",
-        "Volcano Island in the Philippines holds a lake, which has an island in it, which has a smaller lake, which contains an even smaller island called Vulcan Point.",
-        "Russia has more surface area than Pluto.",
-    ]
-    
-    fact = random.choice(facts)
+    # Scan entire table
+    response = table.scan()
+    items = response.get("Items", [])
+
+    if not items:
+        return {
+            "statusCode": 500,
+            "body": json.dumps({"error": "No facts found"})
+        }
+
+    # Pick random fact
+    fact = random.choice(items)["FactText"]
+
     return {
         "statusCode": 200,
         "headers": {"Content-Type": "application/json"},
