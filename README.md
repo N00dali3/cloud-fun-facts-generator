@@ -64,15 +64,15 @@ Response returned to user
 #### Generated Fact ![Generated Fact](screenshots/GeoFunFactsApp2.png)
 
 ### API Gateway Endpoint
-![Create API] Create API (screenshots/createapi.png)
-![API](screenshots/API.png)
-![API Browser Test](APITest.png)
+#### Create API ![Create API](screenshots/createapi.png)
+#### API Info ![API](screenshots/API.png)
+#### Test API ![API Browser Test](APITest.png)
 
 ### Lambda Function
-![Lambda](screenshots/lambda-function.png)
+![Lambda](screenshots/LambdaFunction.png)
 
 ### DynamoDB Table
-![DynamoDB](screenshots/dynamodb-table.png)
+![DynamoDB](screenshots/dynamodbtable.png)
 
 ---
 
