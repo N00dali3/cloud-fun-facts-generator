@@ -60,7 +60,8 @@ Response returned to user
 ## Screenshots
 
 ### Application Interface
-![App](screenshots/app-interface.png)
+![App Homepage](screenshots/GeoFunFactsApp1.png)
+![Generated Fact](screenshots/GeoFunFactsApp2.png)
 
 ### API Gateway Endpoint
 ![API](screenshots/api-gateway.png)
