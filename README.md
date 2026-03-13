@@ -65,7 +65,6 @@ Response returned to user
 
 ### API Gateway Endpoint
 #### Create API ![Create API](screenshots/createapi.png)
-#### API Info ![API](screenshots/API.png)
 #### Test API ![API Browser Test](screenshots/APITest.png)
 
 ### Lambda Function
@@ -73,9 +72,6 @@ Response returned to user
 
 ### DynamoDB Table
 ![DynamoDB](screenshots/dynamodbtable.png)
-
-### IAM Permissions
-![IAM](screenshots/IAM.png)
 
 ### CloudWatch Log Group
 ![Cloudwatch log](screenshots/CloudWatch.png)
